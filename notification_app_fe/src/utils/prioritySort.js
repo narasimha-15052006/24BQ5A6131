@@ -10,9 +10,6 @@ export const prioritySort = (notifications) => {
       return priority[b.Type] - priority[a.Type];
     }
 
-    return (
-      new Date(b.Timestamp) -
-      new Date(a.Timestamp)
-    );
+    return new Date(b.Timestamp) - new Date(a.Timestamp);
   });
 };

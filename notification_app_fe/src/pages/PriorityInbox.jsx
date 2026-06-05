@@ -19,7 +19,7 @@ function PriorityInbox() {
   };
 
   return (
-    <div>
+    <div style={{ padding: "20px" }}>
       <h2>Priority Inbox</h2>
 
       {notifications.map((item) => (
